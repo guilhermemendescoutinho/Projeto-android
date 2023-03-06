@@ -61,6 +61,20 @@ header p{
     margin: auto
 }
 
+div{
+  border: 1px solid black;
+  margin: 8px;
+  padding: 3px;
+  width: 40px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+div:hover{
+    background-color: gray;
+}
+
 nav{
     margin: 10px;
     padding: 10px;
@@ -80,6 +94,7 @@ nav a:hover{
     border-radius: 5%;
     font-size: 21px;
 }
+
 
 main{
     background-color: white;

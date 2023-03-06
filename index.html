@@ -7,13 +7,17 @@
     <title>História do Android</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <h1>Curiosidades da Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
-
         <nav>
+            <div id="dark" onclick="Dark()">
+                dark mode
+            </div>
+
             <a href="#">Home</a>
 
             <a href="https://canaltech.com.br/" target="_blank" rel="external">Notícias</a>
@@ -21,8 +25,6 @@
             <a href="https://www.tecmundo.com.br/software/198354-10-curiosidades-android-brasil.htm" target="_blank" rel="external">Curiosidades</a>
             
             <a href="https://www.instagram.com/guilherme_mandes/" target="_blank" rel="external">Contato</a>
-
-            <input type="button" value="Dark mode" id="btn" onclick="dark()">
         </nav>  
     </header>
 
@@ -94,6 +96,6 @@
     <footer>
         <p>Site criado por <a href="https://www.instagram.com/guilherme_mandes/" target="_blank">Guilherme Mendes </a> para exercitar.</p>
     </footer>
-    <script src="scripts.js"></script>
+    
 </body>
 </html>
